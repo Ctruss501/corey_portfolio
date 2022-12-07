@@ -97,6 +97,12 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   }
 
+  .badge-cmp {
+    img {
+      width: 75px;
+    }
+  }
+
   .tag-cmp {
     flex-direction: column;
     margin-top: 3rem;
@@ -145,6 +151,12 @@
 
     p {
       color: black;
+    }
+  }
+
+  .badge-cmp {
+    img {
+      width: 75px;
     }
   }
 

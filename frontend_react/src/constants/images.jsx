@@ -15,6 +15,9 @@ import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 
 import corey from "../assets/corey.png";
+import name from "../assets/name.png";
+import ctlogo from "../assets/ctlogo.png";
+import ctprofile from "../assets/ctprofile.png";
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
@@ -36,6 +39,9 @@ export default {
   sanity,
   typescript,
   corey,
+  name,
+  ctlogo,
+  ctprofile,
   profile,
   circle,
   logo,

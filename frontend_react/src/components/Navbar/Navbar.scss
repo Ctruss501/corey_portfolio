@@ -34,9 +34,11 @@
   img {
     width: 50px;
     height: 35px;
+    //width: 86px;
+    //height: 35px;
 
     @media screen and (min-width: 2000px) {
-      width: 100px;
+      width: 172px;
       height: 70px;
     }
   }

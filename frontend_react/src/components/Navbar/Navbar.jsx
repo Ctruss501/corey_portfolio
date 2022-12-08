@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.ctlogo} alt="logo" />
+        <img src={images.name} alt="logo" />
       </div>
       {/* Navigation bar links. Mapping the navigation to a template string.*/}
       <ul className="app__navbar-links">

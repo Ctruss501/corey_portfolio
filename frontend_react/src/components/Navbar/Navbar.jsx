@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -21,6 +22,10 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      <BsFillMoonStarsFill
+        className="app__navbar-theme-btn"
+        onClick={props.toggleTheme}
+      />
       {/*
       Navigation bar hamburger menu. 
       Appears when the screen gets smaller. 
@@ -47,6 +52,10 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <BsFillMoonStarsFill
+              className="app__navbar-menu-theme-btn"
+              onClick={props.toggleTheme}
+            />
           </motion.div>
         )}
       </div>
